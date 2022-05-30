@@ -51,6 +51,7 @@ exports.sourceNodes = async ({
         ...item,
         id: createNodeId(`${STRAPI_NODE_TYPE}-${item.id}`),
         parent: null,
+        parentNode: item.parent,
         children: [],
         internal: {
           type: STRAPI_NODE_TYPE,

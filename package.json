@@ -28,9 +28,6 @@
     "strapi-plugin-navigation-v2"
   ],
   "license": "0BSD",
-  "peerDependencies": {
-    "gatsby": "^4.9.0"
-  },
   "dependencies": {
     "node-fetch": "^2.6.7"
   }
